@@ -1,5 +1,4 @@
 
-puts "Hello"
-puts "What is your name?"
-name = gets.chomp
-puts "Hi, #{name}"
+def greeting(name)
+puts "Hello, #{name}. It's nice to meet you"
+end
